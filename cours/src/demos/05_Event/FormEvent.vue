@@ -12,6 +12,8 @@ function addContact(){
         name:fullName.value,
         phone:phoneNumber.value
     })
+    fullName.value="";
+    phoneNumber.value="";
 
 }
 
