@@ -1,5 +1,7 @@
 <script setup>
-import FormEvent from './demos/05_Event/FormEvent.vue';
+import Reactive from './demos/06_Reactive/Reactive.vue';
+
+// import FormEvent from './demos/05_Event/FormEvent.vue';
 
 // import Event from './demos/05_Event/Event.vue';
 
@@ -14,7 +16,8 @@ import FormEvent from './demos/05_Event/FormEvent.vue';
 <template>
 
 <div>
-    <FormEvent></FormEvent>
+    <Reactive></Reactive>
+    <!-- <FormEvent></FormEvent> -->
     <!-- <Event></Event> -->
     <!-- <AttributDynamic/> -->
     <!-- <VBind/> -->
