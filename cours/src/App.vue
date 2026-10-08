@@ -1,5 +1,7 @@
 <script setup>
-import Event from './demos/05_Event/Event.vue';
+import FormEvent from './demos/05_Event/FormEvent.vue';
+
+// import Event from './demos/05_Event/Event.vue';
 
 // import VBind from './demos/03_VBind/VBind.vue';
 // import AttributDynamic from './demos/04_AttributDynamic/AttributDynamic.vue';
@@ -12,7 +14,8 @@ import Event from './demos/05_Event/Event.vue';
 <template>
 
 <div>
-    <Event></Event>
+    <FormEvent></FormEvent>
+    <!-- <Event></Event> -->
     <!-- <AttributDynamic/> -->
     <!-- <VBind/> -->
 <!-- <Interpolation></Interpolation> -->
