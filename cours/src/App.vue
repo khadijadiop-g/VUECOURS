@@ -1,5 +1,7 @@
 <script setup>
-import Rendering from './demos/08_ConditinnelRendering/Rendering.vue';
+import For from './demos/09_For/For.vue';
+
+// import Rendering from './demos/08_ConditinnelRendering/Rendering.vue';
 
 // import Computed from './demos/07_Computed/Computed.vue';
 // import Reactive from './demos/06_Reactive/Reactive.vue';
@@ -15,7 +17,8 @@ import Rendering from './demos/08_ConditinnelRendering/Rendering.vue';
 <template>
 
 <div>
-    <Rendering></Rendering>
+    <For></For>
+    <!-- <Rendering></Rendering> -->
     <!-- <Computed></Computed> -->
     <!-- <Reactive></Reactive> -->
     <!-- <FormEvent></FormEvent> -->
