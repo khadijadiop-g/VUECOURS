@@ -1,5 +1,7 @@
 <script setup>
-import Computed from './demos/07_Computed/Computed.vue';
+import Rendering from './demos/08_ConditinnelRendering/Rendering.vue';
+
+// import Computed from './demos/07_Computed/Computed.vue';
 // import Reactive from './demos/06_Reactive/Reactive.vue';
 // import FormEvent from './demos/05_Event/FormEvent.vue';
 // import Event from './demos/05_Event/Event.vue';
@@ -13,7 +15,8 @@ import Computed from './demos/07_Computed/Computed.vue';
 <template>
 
 <div>
-    <Computed></Computed>
+    <Rendering></Rendering>
+    <!-- <Computed></Computed> -->
     <!-- <Reactive></Reactive> -->
     <!-- <FormEvent></FormEvent> -->
     <!-- <Event></Event> -->
