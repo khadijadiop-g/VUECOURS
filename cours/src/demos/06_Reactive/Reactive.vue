@@ -1,9 +1,10 @@
 <script setup>
 import { reactive, ref } from 'vue';
 
-const info =reactive({nom:"Khadija",
-                      tel:"772345111",
-                      solde:100
+const info =reactive({
+                    nom:"Khadija",
+                    tel:"772345111",
+                    solde:100
                     });
 const cpt = ref(0);
 const montantAjout = ref(0);
